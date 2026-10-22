@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View available certificates and professional learning achievements of Sakshi Shrivas.">
+    <meta name="theme-color" content="#101426">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Certificates | Sakshi Shrivas Portfolio">
+    <meta property="og:description" content="View available certificates and professional learning achievements of Sakshi Shrivas.">
+    <meta property="og:image" content="images/portfolio-preview.svg">
+
+    <title>Certificates | Sakshi Shrivas</title>
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<a href="index.html"></a>
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="education.html">Education</a></li>
+
+<li><a href="skills.html">Skills</a></li>
+
+<li><a href="projects.html">Projects</a></li>
+
+<li><a href="certificates.html" class="active">Certificates</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+            <div class="nav-controls">
+                <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><i class="fas fa-bars"></i></button>
+                <button class="icon-button theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme"><i class="fas fa-sun"></i></button>
+            </div>
+
+</nav>
+
+</header>
+
+<!-- Banner -->
+
+<section class="page-banner">
+
+<h1>Certificates</h1>
+
+<p>Courses and certifications I have completed.</p>
+
+</section>
+
+<!-- Certificates -->
+
+<section class="certificate-section">
+<div class="portfolio-tools certificate-tools"><label class="search-box"><i class="fas fa-search"></i><input id="certificateSearch" type="search" placeholder="Search certificates..." aria-label="Search certificates"></label><div class="filter-chips" role="group" aria-label="Filter certificates"><button class="filter-chip active" data-cert-filter="all">All</button><button class="filter-chip" data-cert-filter="available">Available to view</button><button class="filter-chip" data-cert-filter="pending">Add certificate file</button></div></div>
+
+
+<div class="certificate-card">
+    <i class="fas fa-award"></i>
+
+    <h2>Internship Certificate</h2>
+    <p>Successfully completed an internship.</p>
+
+    <div class="certificate-actions">
+        <a class="certificate-preview-btn"
+           href="certificates/Java.jpeg"
+           target="_blank"
+           rel="noopener noreferrer">
+            View Certificate
+        </a>
+
+        <a class="certificate-download"
+           href="certificates/Java.jpeg"
+           download="Internship-Certificate.jpeg">
+            Download Image
+        </a>
+    </div>
+</div>
+
+
+
+<div class="certificate-card">
+    <i class="fas fa-award"></i>
+
+    <h2>Python Programming</h2>
+    <p>Successfully completed Python Programming course.</p>
+
+    <div class="certificate-actions">
+        <a class="certificate-preview-btn"
+           href="Pyhton%20CER.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+            View Certificate
+        </a>
+
+        <a class="certificate-download"
+           href="Pyhton%20CER.pdf"
+           download="Python-Certificate.pdf">
+            Download PDF
+        </a>
+    </div>
+</div>
+
+
+</div>
+
+
+
+<div class="certificate-card">
+    <i class="fas fa-award"></i>
+
+    <h2>C and C++ Programming</h2>
+    <p>Successfully completed C and C++ programming courses.</p>
+
+    <div class="certificate-actions">
+        <a class="certificate-preview-btn"
+           href="certificates/C and C++.jpeg"
+           target="_blank"
+           rel="noopener noreferrer">
+            View Certificate
+        </a>
+
+        <a class="certificate-download"
+           href="certificates/C and C++.jpeg"
+           download="C-and-CPP-Certificate.jpeg">
+            Download Image
+        </a>
+    </div>
+</div>
+
+
+
+</section>
+<div class="modal-backdrop certificate-modal" id="certificateModal" role="dialog" aria-modal="true" aria-labelledby="certificateModalTitle" hidden><div class="modal-card certificate-modal-card"><button type="button" class="modal-close" aria-label="Close certificate">×</button><p class="modal-eyebrow">CERTIFICATE PREVIEW</p><h2 id="certificateModalTitle">Python Programming</h2><div id="certificatePdfViewer">
+    <img id="certificateImage" alt="Certificate preview">
+</div><img
+    id="certificateImage"
+    alt="Certificate preview"
+    hidden
+>
+</div><div class="modal-actions"><a id="certificateOpen" class="btn" href="Pyhton%20CER.pdf" target="_blank" rel="noopener noreferrer">Open in new tab</a><a id="certificateDownload" class="btn2" href="Pyhton%20CER.pdf" download>Download PDF</a></div></div></div>
+
+<footer>
+
+<h2>Sakshi Shrivas</h2>
+
+<p>MCA Student | Java Developer</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore software development projects by Sakshi Shrivas, including CodeQuest.">
+    <meta name="theme-color" content="#101426">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projects | Sakshi Shrivas Portfolio">
+    <meta property="og:description" content="Explore software development projects by Sakshi Shrivas, including CodeQuest.">
+    <meta property="og:image" content="images/portfolio-preview.svg">
+
+    <title>Projects | Sakshi Shrivas</title>
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<a href="index.html"></a>
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="education.html">Education</a></li>
+
+<li><a href="skills.html">Skills</a></li>
+
+<li><a href="projects.html" class="active">Projects</a></li>
+
+<li><a href="certificates.html">Certificates</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+            <div class="nav-controls">
+                <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><i class="fas fa-bars"></i></button>
+                <button class="icon-button theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme"><i class="fas fa-sun"></i></button>
+            </div>
+
+</nav>
+
+</header>
+
+<!-- ================= Banner ================= -->
+
+<section class="page-banner">
+
+<h1>My Projects</h1>
+
+<p>Projects that demonstrate my technical skills and learning.</p>
+
+</section>
+
+<!-- ================= Projects ================= -->
+
+<section class="projects">
+<div class="portfolio-tools"><label class="search-box"><i class="fas fa-search"></i><input id="projectSearch" type="search" placeholder="Search projects or technologies..." aria-label="Search projects"></label><div class="filter-chips" role="group" aria-label="Filter projects"><button class="filter-chip active" data-filter="all">All</button><button class="filter-chip" data-filter="web">Web Development</button><button class="filter-chip" data-filter="php">PHP / MySQL</button></div></div>
+
+<!-- Project 1 -->
+
+<div class="project-box searchable-project" data-category="web php" data-search="codequest gamified learning platform html css javascript php mysql coding quiz leaderboard certificates">
+<div class="project-art art-codequest"><span class="art-label">PROJECT 01</span><div class="mock-window"><div class="mock-dots">● ● ●</div><strong>CodeQuest</strong><div class="mock-bars"><i></i><i></i><i></i></div><small>Learn · Code · Level Up</small></div></div>
+
+
+<div class="project-info">
+
+<h2>CodeQuest - Gamified Learning Platform</h2>
+
+<p>
+
+CodeQuest is a web application that helps students learn programming
+through quizzes, coding challenges, levels, XP points, and certificates.
+
+</p>
+
+<h4>Technologies Used</h4>
+
+<div class="tech">
+
+<span>HTML</span>
+
+<span>CSS</span>
+
+<span>JavaScript</span>
+
+<span>PHP</span>
+
+<span>MySQL</span>
+
+</div>
+
+<h4>Features</h4>
+
+<ul>
+
+<li>User Registration & Login</li>
+
+<li>Programming Quiz</li>
+
+<li>Leaderboard</li>
+
+<li>Certificates</li>
+
+<li>Progress Tracking</li>
+
+<li>Online Compiler</li>
+
+</ul>
+
+<div class="project-buttons">
+<button type="button" class="project-details-btn" data-project-title="CodeQuest - Gamified Learning Platform" data-project-detail="A gamified learning app that helps students practise programming through quizzes, coding challenges, levels, XP, progress tracking and certificates." data-project-tech="HTML, CSS, JavaScript, PHP, MySQL">View Details</button>
+
+<a href="https://github.com/Siya-git2005" target="_blank" rel="noopener noreferrer">
+
+<i class="fab fa-github"></i>
+
+GitHub
+
+</a>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Project 2 -->
+
+<div class="project-box">
+
+
+
+<div class="project-info">
+
+<h2>Old Age Home Management System</h2>
+
+<p>
+
+Desktop application developed for helping and managing elderly people in old age homes.,
+attendance, marks, and records.
+
+</p>
+
+<h4>Technologies Used</h4>
+
+<div class="tech">
+
+<span>PHP</span>
+
+<span>HTML</span>
+
+<span>CSS</span>
+
+<span>JavaScript</span>
+
+<span>MySQL</span>
+
+</div>
+
+<h4>Features</h4>
+
+<ul>
+
+<li>Admin Panel</li>
+
+<li>User Dashboard</li>
+
+<li>Visitor Management</li>
+
+<li>Donation Management</li>
+
+<li>Database Connectivity</li>
+
+</ul>
+
+<div class="project-buttons">
+<button type="button" class="project-details-btn" data-project-title="Old Age Home Management System" data-project-detail="A management system concept for organizing resident records, visitor management, donation records and administrative workflows." data-project-tech="PHP, HTML, CSS, JavaScript, MySQL">View Details</button>
+
+<a href="https://github.com/Siya-git2005">
+
+<i class="fab fa-github"></i>
+
+GitHub
+
+</a>
+
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle" hidden><div class="modal-card"><button type="button" class="modal-close" aria-label="Close details">×</button><p class="modal-eyebrow">PROJECT DETAILS</p><h2 id="projectModalTitle"></h2><p id="projectModalDescription"></p><p class="modal-tech" id="projectModalTech"></p></div></div>
+
+<section class="github-section"><h2 class="section-title">More on GitHub</h2><p class="github-intro">Recent public repositories from my GitHub profile.</p><div class="github-repos" id="githubRepos"><p>Loading repositories…</p></div><p class="github-profile-link"><a href="https://github.com/Siya-git2005" target="_blank" rel="noopener noreferrer">Explore my GitHub profile <i class="fas fa-arrow-up-right-from-square"></i></a></p></section>
+<footer>
+
+<h2>Sakshi Shrivas</h2>
+
+<p>MCA Student | Java Developer</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+
+</html>
